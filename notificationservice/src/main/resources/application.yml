@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: notificationservice
+
+server:
+  port: 8081
+
+mailjet:
+  api:
+    key: "56fa7598b371ffc0b4f4c602d9f4c334"
+  secret:
+    key: "654c9810f6fea7bbd282d5e59ba4b916"
+
+sender:
+  email: "ghoshghoshbishal@gmail.com"
+# mailjet api key: 56fa7598b371ffc0b4f4c602d9f4c334
+# mailjet secret key: 654c9810f6fea7bbd282d5e59ba4b916
